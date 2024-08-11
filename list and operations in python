@@ -1,0 +1,8 @@
+a=[1.0,2.0,3.0]
+a.append(4.0)     #insert
+print(a)
+a.insert(2,2.5)   #insert by position
+print(a)
+print(len(a))
+a[2:3]=[5.0,5.0,5.0,5.0]  #cut and add elements upto 3 and print 3th element etc
+print(a)
